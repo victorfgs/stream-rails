@@ -13,11 +13,11 @@ Gem::Specification.new do |gem|
   gem.files = Dir['lib/**/*']
   gem.license = 'Apache-2.0'
 
-  gem.required_ruby_version = '>= 1.9.2'
+  gem.required_ruby_version = '>= 2.5.0'
 
   gem.add_dependency 'actionpack', '>= 3.0.0'
   gem.add_dependency 'railties', '>= 3.0.0'
-  gem.add_dependency 'stream-ruby', '~> 3.1'
+  gem.add_dependency 'stream-ruby', '~> 4.0.1'
   gem.add_dependency 'activerecord', '>= 3.0.0'
 
   gem.add_development_dependency 'rake'
